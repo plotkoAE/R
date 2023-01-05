@@ -1,5 +1,5 @@
 ---
-title: "Домашнее задание"
+title: "Домашняя работа"
 output:
   pdf_document: default
   html_document:
