@@ -1,0 +1,25 @@
+---
+title: "Untitled"
+output: html_document
+date: "2023-01-06"
+---
+
+
+```{r}
+library('shiny')
+library(tidyverse)
+
+
+View(diamonds)
+
+runExample('01_hello')
+
+
+barplot(table(diamonds$cut), 
+        col = 'skyblue', 
+        border = 'white',
+        main = 'Распределение огранки бриллиантов',
+        xlab = 'Вид огранки',
+        ylab = 'Кол-во')
+```
+
